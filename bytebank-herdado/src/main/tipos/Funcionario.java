@@ -1,3 +1,5 @@
+package main.tipos;
+
 // não pode instanciar objetos dessa porque é abstrata/um conceito
 public abstract class Funcionario {
     private String nome, cpf;

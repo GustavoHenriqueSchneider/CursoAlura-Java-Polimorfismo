@@ -1,7 +1,14 @@
+package test;
+
+import main.classes.Designer;
+import main.classes.EditorVideo;
+import main.classes.Gerente;
+import main.sistemas.ControleBonificacao;
+
 public class TesteReferencias {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Gerente g = new Gerente();
-        //Funcionario g1 = new Gerente();
+        //main.tipos.Funcionario g1 = new main.profissoes.Gerente();
         g.setNome("Gustavo");
         g.setSalario(5000);
 

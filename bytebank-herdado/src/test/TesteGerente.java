@@ -1,5 +1,16 @@
+package test;
+
+import main.classes.Administrador;
+import main.classes.Gerente;
+import main.tipos.Autenticavel;
+import main.tipos.Funcionario;
+
 public class TesteGerente {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        Autenticavel referencia = new Gerente();
+        Funcionario referencia2 = new Gerente();
+        Autenticavel referencia3 = new Administrador();
+
         Gerente gerente = new Gerente();
 
         gerente.setNome("Gustavo");
